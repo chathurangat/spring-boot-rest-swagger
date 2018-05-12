@@ -1,4 +1,4 @@
-package com.springbootdev.examples.security.swagger.config;
+package com.springbootdev.examples.swagger.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +19,7 @@ public class Swagger2Config {
     public Docket restApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.springbootdev.examples.security.swagger.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.springbootdev.examples.swagger.controller"))
                 .build()
                 .apiInfo(getApiInfo());
     }

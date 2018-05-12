@@ -1,4 +1,4 @@
-package com.springbootdev.examples.security.swagger.controller;
+package com.springbootdev.examples.swagger.controller;
 
 import com.springbootdev.examples.swagger.exception.ModelNotFoundException;
 import com.springbootdev.examples.swagger.exception.PersistentException;
